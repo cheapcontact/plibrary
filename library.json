@@ -1,0 +1,111 @@
+{
+  "borrowers": {
+    "Shawn": {
+      "name": "Shawn",
+      "__class__": "Person"
+    },
+    "Chef": {
+      "name": "Chef",
+      "__class__": "Person"
+    },
+    "Donald": {
+      "name": "Donald",
+      "__class__": "Person"
+    }
+  },
+  "label": "Home Library",
+  "__class__": "Library",
+  "containment_preposition": "in",
+  "children": [
+    {
+      "containment_preposition": "in",
+      "label": "Main Room",
+      "__class__": "Room",
+      "children": [
+        {
+          "containment_preposition": "in",
+          "label": "North Wall",
+          "__class__": "Case",
+          "children": [
+            {
+              "containment_preposition": "on",
+              "label": "Top Shelf",
+              "width": 10,
+              "__class__": "Shelf",
+              "children": [
+                {
+                  "lent_to": null,
+                  "title": "A Shark",
+                  "genre": "Fiction",
+                  "__class__": "Book",
+                  "is_on_shelf": true,
+                  "author": "Herman Melville",
+                  "width": 3,
+                  "pages": 927
+                },
+                {
+                  "lent_to": null,
+                  "title": "B Moby Dick",
+                  "genre": "Fiction",
+                  "__class__": "Book",
+                  "is_on_shelf": true,
+                  "author": "Herman Melville",
+                  "width": 3,
+                  "pages": 927
+                },
+                {
+                  "lent_to": null,
+                  "title": "E Moby Dick",
+                  "genre": "Fiction",
+                  "__class__": "Book",
+                  "is_on_shelf": true,
+                  "author": "Herman Melville",
+                  "width": 3,
+                  "pages": 927
+                }
+              ]
+            },
+            {
+              "containment_preposition": "on",
+              "label": "Bottom Shelf",
+              "width": 50,
+              "__class__": "Shelf",
+              "children": [
+                {
+                  "lent_to": null,
+                  "title": "It!",
+                  "genre": "Horror",
+                  "__class__": "Book",
+                  "is_on_shelf": true,
+                  "author": "Stephen King",
+                  "width": 1,
+                  "pages": "123"
+                },
+                {
+                  "lent_to": null,
+                  "title": "G Shark",
+                  "genre": "Fiction",
+                  "__class__": "Book",
+                  "is_on_shelf": true,
+                  "author": "Herman Melville",
+                  "width": 3,
+                  "pages": 927
+                },
+                {
+                  "lent_to": null,
+                  "title": "Z Shark",
+                  "genre": "Fiction",
+                  "__class__": "Book",
+                  "is_on_shelf": true,
+                  "author": "Herman Melville",
+                  "width": 3,
+                  "pages": 927
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
